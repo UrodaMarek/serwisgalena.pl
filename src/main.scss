@@ -1,0 +1,210 @@
+$primary: #282828;
+$secondary: #414141;
+$dark: #303030;
+$grey: #393939;
+$orange: orange;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  background-color: $secondary;
+}
+
+.marginmenus {
+  margin-left: 10vw;
+}
+
+.marginmenue {
+  margin-right: 10vw;
+}
+
+.dropdown-menu {
+  background-color: $secondary;
+  border-color: $orange;
+}
+
+.dropdown-item {
+  color: $orange;
+}
+
+.dropdown-item:hover {
+  background-color: $grey;
+  color: $orange;
+}
+
+.dropdown-divider {
+  border-color: $orange;
+}
+
+nav {
+  min-height: 102px;
+}
+
+#secondLogo {
+  border-radius: 100%;
+  margin: 100px calc(50% - 300px);
+  width: 600px;
+  height: 600px;
+}
+
+.ul {
+  max-width: 50%;
+}
+
+#map {
+  height: 800px;
+  background-image: url("img/map.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+#map2 {
+  height: 273px;
+  background-image: url("img/map.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+#bitcoin {
+  height: 273px;
+  background-image: url("img/bitcoin.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#bitcoin2 {
+  height: 460px;
+  background-image: url("img/bitcoin.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.graphicCardDiv {
+  min-height: 618px;
+}
+iframe {
+  height: 50vh;
+}
+@media (min-width: 768px) {
+  iframe {
+    margin-right: 30%;
+    width: 70%;
+    border-radius: 3%;
+  }
+  .ml-md {
+    margin-left: 30%;
+    width: 70%;
+  }
+}
+.facebook {
+  font-size: 100px;
+  color: white;
+}
+.facebook:hover {
+  color: #4267b2;
+}
+.noPointer{
+  cursor: default !important;
+}
+#nvidia {
+  width: 100%;
+  height: auto;
+  max-height: 586px;
+  max-width: 530px;
+}
+.graphicCardDiv .row {
+  min-height: 545px;
+}
+.fDiv {
+  min-height: 520px;
+}
+#cDiv {
+  min-height: 816px;
+}
+#gpuNvidia {
+  width: 100%;
+  height: auto;
+  max-height: 328px;
+  max-width: 570px;
+}
+.gcIMG {
+  height: 188px;
+}
+.fIMG {
+  width: 100%;
+  height: auto;
+  border-radius: 2%;
+  max-height: 460px;
+  max-width: 570px;
+}
+.fIMG2 {
+  width: 100%;
+  height: auto;
+  max-width: 221px;
+}
+.cIMG {
+  width: 100%;
+  height: auto;
+}
+.pIMG {
+  max-width: 75%;
+  height: auto;
+  border-radius: 2%;
+  max-height: 60%;
+}
+.pIMG2 {
+  max-width: 55%;
+  height: auto;
+  border-radius: 2%;
+  max-height: 60%;
+}
+.pDiv {
+  width: 100%;
+  height: 110vh;
+}
+.l-hover:hover {
+  color: $orange;
+}
+@media (max-width: 600px) {
+  #secondLogo {
+    border-radius: 0%;
+    margin: 0;
+    width: 100%;
+    height: 100vw;
+    position: absolute;
+  }
+
+  #map {
+    height: 100vw;
+  }
+}
+
+img.d-block {
+  height: 800px;
+  text-align: center;
+}
+
+.priceArray {
+  padding: 89px 10px 0px 10px;
+  border: 2px solid white;
+  height: 338px;
+}
+
+.fArray {
+  padding: 20px 10px 0px 10px;
+  border: 2px solid white;
+  height: 342px;
+}
+
+h5 {
+  margin-bottom: 334px;
+  color: white;
+}
+section footer {
+  padding: 0 !important;
+  background-color: $secondary !important;
+}
+body footer {
+  background-color: $primary;
+  text-align: center;
+  padding: 58.5px 0;
+}

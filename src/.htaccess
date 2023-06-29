@@ -1,0 +1,16 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+ 
+RewriteEngine on
+RewriteRule strona-główna index.html
+RewriteRule koparki koparki.html
+RewriteRule kontakt kontakt.html
+RewriteRule komputery-i-laptopy komputeryLaptopy.html
+RewriteRule karty-graficzne kartyGraficzne.html
+RewriteRule forki-chia forkiChia.html
+RewriteRule cennik cennik.html
+RewriteRule portfolio portfolio.html
+RewriteRule serwery serwery.html
