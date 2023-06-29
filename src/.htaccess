@@ -14,3 +14,4 @@ RewriteRule forki-chia forkiChia.html
 RewriteRule cennik cennik.html
 RewriteRule portfolio portfolio.html
 RewriteRule serwery serwery.html
+RewriteRule kolej kolej.html
