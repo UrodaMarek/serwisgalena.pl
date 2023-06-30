@@ -78,7 +78,25 @@ nav {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.graphicCardDiv {
+#kolej {
+  height: 273px;
+  background-image: url("img/pkp.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#electricity {
+  height: 273px;
+  background-image: url("img/electricity.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#ethernet {
+  height: 273px;
+  background-image: url("img/ethernet.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.graphicCardDiv{
   min-height: 618px;
 }
 iframe {
